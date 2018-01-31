@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7fcdb78dbe67a7b48a297207fe5fe090
+timeCreated: 1513181933
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - thinkMaterial: {fileID: 2100000, guid: 1809af734f64afc4cbb4488208fe2c20, type: 2}
+  - eatMaterial: {fileID: 2100000, guid: 3a1065e8977cab6469e3b5d420867e1e, type: 2}
+  - waitMaterial: {fileID: 2100000, guid: d95e12a612736fc49a2904dbd3963f99, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
