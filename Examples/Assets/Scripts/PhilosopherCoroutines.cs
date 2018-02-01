@@ -29,14 +29,11 @@ public class PhilosopherCoroutines : AbstractLinda {
 	{
 		while (true) {
 			//print ("1");
-			//StartCoroutine (Think());
-			MainThreadDispatcher.StartUpdateMicroCoroutine (Think ());//microcoroutines, more efficient
+			StartCoroutine (Think());
 			//print ("2");
-			MainThreadDispatcher.StartUpdateMicroCoroutine (GetChops ());
-			//StartCoroutine (GetChops ());
+			StartCoroutine (GetChops ());
 			//print ("3");
-			MainThreadDispatcher.StartUpdateMicroCoroutine (Eat ());
-			//StartCoroutine (Eat());
+			StartCoroutine (Eat());
 			//print ("4");
 			ReleaseChops ();
 		}
